@@ -453,6 +453,7 @@ uid=1000(codespace) gid=1000(codespace) groups=1000(codespace),106(ssh),107(dock
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 @Akifunian ➜ /workspaces/OSProject_2218467/myroot (main) $ sudo chown -R codespace:codespace rootfile.txt
+![Alt text](<Screenshot (33).png>)
 ```
 *** __Fill answer here__.***
 
