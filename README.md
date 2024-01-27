@@ -454,7 +454,7 @@ uid=1000(codespace) gid=1000(codespace) groups=1000(codespace),106(ssh),107(dock
 ```bash
 @Akifunian ➜ /workspaces/OSProject_2218467/myroot (main) $ sudo chown -R codespace:codespace rootfile.txt
 ```
-![Alt text](<Screenshot (33).png>)
+![Alt text](<Screenshot (46).png>)
 *** __Fill answer here__.***
 
 ## You are on your own, create your own static webpage
