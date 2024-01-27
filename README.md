@@ -23,7 +23,7 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)*** https://github.com/Akifunian/OSProject_2218467.
-2. How many files and folders are in this repository. ***(1 mark)*** 7 files and 1 folder.
+2. How many files and folders are in this repository. ***(1 mark)*** 10 files and 3 folder including the examples.
 
 
 ## Exploring github codespaces
@@ -55,10 +55,18 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** Linux.
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** You can choose from a selection of virtual machine types, from 2 cores, 8 GB RAM, and 32 GB storage, up to 32 cores, 64 GB RAM, and 128 GB storage.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** To save our work.
-
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)***
+```bash
+Linux.
+```
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** 
+```bash
+You can choose from a selection of virtual machine types, from 2 cores, 8 GB RAM, and 32 GB storage, up to 32 cores, 64 GB RAM, and 128 GB storage.
+```
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** 
+```bash
+To save our work.
+```
 ## Exploring the Terminal
 
 1. Look at the TERMINAL tab. Explore and run commands according to the questions below. 
