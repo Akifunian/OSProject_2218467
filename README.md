@@ -483,9 +483,18 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 ***Questions:***
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
+```bash
+@Akifunian ➜ /workspaces/OSProject_2218467/webpage (main) $ ls -ld
+drwxrwxrwx+ 2 codespace codespace 4096 Jan 27 16:14 .
+```
 2. What port is the apache web server running. ***(1 mark)***
+```bash
+8080
+```
 3. What port is open for http protocol on the host machine? ***(1 mark)***
-
+```bash
+80
+```
 ## What to submit
 
 1. Make sure to commit all changes on your source control, and make sure your source control is sync to the repository. 
