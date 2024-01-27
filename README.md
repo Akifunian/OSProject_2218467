@@ -443,11 +443,16 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 ***Questions:***
 
 1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+```bash
+@Akifunian ➜ /workspaces/OSProject_2218467/myroot (main) $ ls -l
+total 0
+-rw-rw-rw- 1 codespace codespace 0 Jan 27 15:36 rootfile.txt
+@Akifunian ➜ /workspaces/OSProject_2218467/myroot (main) $ id
+uid=1000(codespace) gid=1000(codespace) groups=1000(codespace),106(ssh),107(docker),988(pipx),989(python),990(oryx),991(golang),992(sdkman),993(rvm),994(php),995(conda),996(nvs),997(nvm),998(hugo),999(dotnet)
+```
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
-//use sudo and chown
-sudo chown -R codespace:codespace myroot
-
+@Akifunian ➜ /workspaces/OSProject_2218467/myroot (main) $ sudo chown -R codespace:codespace rootfile.txt
 ```
 *** __Fill answer here__.***
 
